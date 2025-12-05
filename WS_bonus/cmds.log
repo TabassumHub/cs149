@@ -1,0 +1,70 @@
+    1  pwd
+    2  cd ~
+    3  cd Desktop/
+    4  ls -latr
+    5  mkdir cs149
+    6  cd cs149
+    7  date
+    8  pwd
+    9  cd ~
+   10  cd Desktop/cs149
+   11  ls -latr
+   12  mkdir wsA
+   13  cd wsA
+   14  ls -latr
+   15  echo $?
+   16  man ps
+   17  ps aux
+   18  top
+   19  wget https://github.com/torvalds/linux/archive/master.zip
+   20  unzip master.zip
+   21  cd linux-master
+   22  pwd
+   23  alias l='ls -latr'
+   24  l
+   25  find . -name mem.c
+   26  find . -name mem.c | xargs head
+   27  find . -name mem.c | xargs grep 86
+   28  cd ..
+   29  pwd
+   30  pstree
+   31  ps -a -f -x
+   32  ps -a -f -x | more
+   33  top
+   34  man kill
+   35  echo $?
+   36  echo $$
+   37  cd ~/Desktop/
+   38  cd cs149
+   39  cd wsA
+   40  ls | wc
+   41  ls | sort
+   42  ls | sort | wc
+   43  ls -latr/bin/ > a.out
+   44  ls -latr /bin/ > a.out
+   45  cat a.out | more
+   46  strace ls
+   47  du -sh
+   48  df -i
+   49  history > worksheetA.log
+   50  head.worksheetA.log
+   51  head worksheetA.log
+   52  tail worksheetA.log
+   53  cat worksheetA.log
+   54  explorer.exe . 
+   55  sudo apt update
+   56  sudo apt install -y build-essential git qemu-system-misc gdb gcc-riscv64-unknown-elf
+   57  cd `
+   58  cd ~
+   59  mkdir cs149
+   60  cd cs149
+   61  git init
+   62  ls
+   63  cd cs149
+   64  git init
+   65  git remote add origin https://github.com/TabassumHub/cs149
+   66  mkdir WS_bonus
+   67  cd WS_bonus
+   68  wget -O out.pdf https://tinyurl.com/yy94jltt
+   69  ls -latr
+   70  history > cmds.log
